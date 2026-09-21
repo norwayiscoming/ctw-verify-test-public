@@ -4,4 +4,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: test -f FAIL && exit 1 || echo ok
+      - run: echo "this branch is broken on purpose" && exit 1
